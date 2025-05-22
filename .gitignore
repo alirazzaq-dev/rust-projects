@@ -1,0 +1,45 @@
+########################################
+# Rust / Cargo (applies to ALL sub-crates)
+########################################
+
+# All target dirs (binary + incremental artefacts)
+**/target/
+
+# If you ever run `cargo vendor`
+**/vendor/
+
+# Build-script leftovers (rare)
+/build.rs
+
+########################################
+# Editors & IDEs
+########################################
+.idea/
+.vscode/
+*.code-workspace
+
+########################################
+# Rust-Analyzer & rustc caches
+########################################
+**/.rustc_info.json
+**/incremental/
+**/rust-workspace.json
+
+########################################
+# Tooling (optional — comment out if used)
+########################################
+# Code coverage
+coverage/
+**/coverage/
+# Fuzzing artefacts (cargo-fuzz)
+fuzz/artifacts/
+fuzz/corpus/
+
+########################################
+# OS / Editor cruft
+########################################
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
