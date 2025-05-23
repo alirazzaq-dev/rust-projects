@@ -4,16 +4,10 @@ A growing collection of Rust mini-projects and code experiments I’m building a
 
 ---
 
-## Projects
+## Key Projects
 
 | Folder | Focus |
 |--------|-------|
-| `ownership_notes/` | precise ownership & borrowing demos |
-| `mini_blog/` | structs, methods, and basic CLI CRUD |
-| `cli_args/` | enums, pattern matching, and sub-command parsing |
-| `word_freq/` | collections, strings, and iterators |
-| `file_fetcher/` | robust error handling with `Result` + `anyhow` |
-| `cache/` | generics and trait-driven LRU cache |
 | `pool/` | lifetime-safe connection-pool sketch |
 | More coming… | advanced concurrency, async, and performance tuning |
 
